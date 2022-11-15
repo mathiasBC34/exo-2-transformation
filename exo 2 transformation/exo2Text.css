@@ -1,0 +1,19 @@
+/*il ya deux possibilités dans cette exemple il prend en compt le premier de la liste*/
+ul :first-child { background-color: #9cf;}
+li:first-of-type { background-color: #9cf;}
+
+/*il ya deux possibilités dans cette exemple il prend en compt le dernier de la liste*/
+ul :last-child { background-color: #9cf;}
+li:last-of-type { background-color: #9cf;}
+
+/*il ya deux possibilités dans cette exemple il prend en compte le deuxième en partent de la fin*/
+ul :nth-last-child(2) { background-color: #9cf;}
+li:nth-last-of-type(2) { background-color: #9cf;}
+
+/*il ya deux possibilités dans cette exemple il prend celui du millieu*/
+ul :nth-child(odd) { background-color: #9cf;}
+li:nth-of-type(odd) { background-color: #9cf;}
+
+/*il ya deux possibilités dans cette exemple il prend en compte le reste*/
+ul :nth-child(even) { background-color: #9cf;}
+li:nth-of-type(even) { background-color: #9cf;}
